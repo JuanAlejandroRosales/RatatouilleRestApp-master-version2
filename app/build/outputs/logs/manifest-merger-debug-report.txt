@@ -1,0 +1,168 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:16:1-66:12
+	package
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:17:5-44
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:16:11-69
+	android:versionCode
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:19:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:19:22-64
+application
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:21:5-64:19
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/frank/.android/build-cache/aac4ae2e1ed303d00772c492114bc927cec27a2a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.1] /home/frank/.android/build-cache/9aa31dda13c74b7df099135f2deb2527682163dc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/frank/.android/build-cache/c4f5d9383b72c90bd4876f63d5c9e4e6250f91cd/output/AndroidManifest.xml:26:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /home/frank/.android/build-cache/4e30729f03bdb50f0f370c3fd2ee61c55cec0e34/output/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/frank/.android/build-cache/7c7321d98e31dd69f1adfe2f471f36a4f5b7ce3b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/frank/.android/build-cache/4ea871164c0a761a1a3a783823706e01f662270a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/frank/.android/build-cache/81b660322b7e20c40ee5542d838bfb74f3339a54/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/frank/.android/build-cache/15a83224c6f7c736443c11596adce44f0894d424/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/frank/.android/build-cache/3f0ff6f50d909a10e3e72ff19b737dbe5e672ae0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/frank/.android/build-cache/6eac32a57ad0f070dd390609e532d04c036705ae/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/frank/.android/build-cache/b72013c0049029bb87300d84dd930f2e612bdd8f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/frank/.android/build-cache/f01944a245f55817822e4fdb0feb34d0ef4c4972/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/frank/.android/build-cache/309403217ece1c6227ca35a75e9bf3171eafd0e6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/frank/.android/build-cache/206af719ded59dc2dabc4108d09d7b206d03daad/output/AndroidManifest.xml:8:5-20
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:32:5-38:19
+	android:label
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:25:9-41
+	android:supportsRtl
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:26:9-35
+	android:allowBackup
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:23:9-35
+	android:icon
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:24:9-43
+	android:theme
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:22:9-60
+service#ratatouillerestapp.upc.edu.pe.service.SyncService
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:29:9-56
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:29:18-53
+activity#ratatouillerestapp.upc.edu.pe.ui.splash.SplashActivity
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:31:9-40:20
+	android:screenOrientation
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:34:13-49
+	android:launchMode
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:33:13-43
+	android:theme
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:35:13-54
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:32:13-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:38:27-74
+activity#ratatouillerestapp.upc.edu.pe.ui.login.LoginActivity
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:42:9-45:52
+	android:screenOrientation
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:45:13-49
+	android:launchMode
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:44:13-43
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:43:13-80
+activity#ratatouillerestapp.upc.edu.pe.ui.main.MainActivity
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:47:9-50:52
+	android:screenOrientation
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:50:13-49
+	android:launchMode
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:49:13-43
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:48:13-78
+activity#ratatouillerestapp.upc.edu.pe.ui.feed.FeedActivity
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:52:9-62:20
+	android:screenOrientation
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:56:13-49
+	android:parentActivityName
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:55:13-63
+	android:launchMode
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:54:13-43
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:53:13-78
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:59:13-61:57
+	android:value
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:61:17-54
+	android:name
+		ADDED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml:60:17-63
+uses-sdk
+INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/frank/.android/build-cache/aac4ae2e1ed303d00772c492114bc927cec27a2a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.1] /home/frank/.android/build-cache/9aa31dda13c74b7df099135f2deb2527682163dc/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] /home/frank/.android/build-cache/c4f5d9383b72c90bd4876f63d5c9e4e6250f91cd/output/AndroidManifest.xml:20:5-44
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] /home/frank/.android/build-cache/4e30729f03bdb50f0f370c3fd2ee61c55cec0e34/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/frank/.android/build-cache/7c7321d98e31dd69f1adfe2f471f36a4f5b7ce3b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/frank/.android/build-cache/4ea871164c0a761a1a3a783823706e01f662270a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/frank/.android/build-cache/81b660322b7e20c40ee5542d838bfb74f3339a54/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/frank/.android/build-cache/15a83224c6f7c736443c11596adce44f0894d424/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/frank/.android/build-cache/3f0ff6f50d909a10e3e72ff19b737dbe5e672ae0/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/frank/.android/build-cache/6eac32a57ad0f070dd390609e532d04c036705ae/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/frank/.android/build-cache/b72013c0049029bb87300d84dd930f2e612bdd8f/output/AndroidManifest.xml:20:5-43
+MERGED from [com.amitshekhar.android:rx2-android-networking:1.0.0] /home/frank/.android/build-cache/92eb65a2fb5a2f8528c390d53f9fb28423f6e95c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:android-networking:1.0.0] /home/frank/.android/build-cache/390b2ee5f6c6dc472c2a8ab19e120041be083b36/output/AndroidManifest.xml:23:5-25:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/frank/.android/build-cache/eeeca67f9d5bb1845cf319c1e167bca77c80a0bb/output/AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:8.6.0] /home/frank/.android/build-cache/9045d9671c81b059147e75b24184c55cde08db63/output/AndroidManifest.xml:5:5-43
+MERGED from [com.mindorks:placeholderview:0.6.1] /home/frank/.android/build-cache/a6bb44c96f60b96cfce142949c4f0d322420c3e2/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/frank/.android/build-cache/e7660fd4437832a3965994d1ff0085d1d3597c16/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/frank/.android/build-cache/f01944a245f55817822e4fdb0feb34d0ef4c4972/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/frank/.android/build-cache/309403217ece1c6227ca35a75e9bf3171eafd0e6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/frank/.android/build-cache/206af719ded59dc2dabc4108d09d7b206d03daad/output/AndroidManifest.xml:6:5-43
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:25:5-27:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /home/frank/.android/build-cache/9aa31dda13c74b7df099135f2deb2527682163dc/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] /home/frank/.android/build-cache/aac4ae2e1ed303d00772c492114bc927cec27a2a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] /home/frank/.android/build-cache/9aa31dda13c74b7df099135f2deb2527682163dc/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /home/frank/.android/build-cache/c4f5d9383b72c90bd4876f63d5c9e4e6250f91cd/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/frank/.android/build-cache/7c7321d98e31dd69f1adfe2f471f36a4f5b7ce3b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/frank/.android/build-cache/4ea871164c0a761a1a3a783823706e01f662270a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/frank/.android/build-cache/81b660322b7e20c40ee5542d838bfb74f3339a54/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/frank/.android/build-cache/15a83224c6f7c736443c11596adce44f0894d424/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/frank/.android/build-cache/3f0ff6f50d909a10e3e72ff19b737dbe5e672ae0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/frank/.android/build-cache/6eac32a57ad0f070dd390609e532d04c036705ae/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/frank/.android/build-cache/b72013c0049029bb87300d84dd930f2e612bdd8f/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/frank/.android/build-cache/e7660fd4437832a3965994d1ff0085d1d3597c16/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/frank/.android/build-cache/f01944a245f55817822e4fdb0feb34d0ef4c4972/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/frank/.android/build-cache/309403217ece1c6227ca35a75e9bf3171eafd0e6/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] /home/frank/.android/build-cache/aac4ae2e1ed303d00772c492114bc927cec27a2a/output/AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] /home/frank/.android/build-cache/aac4ae2e1ed303d00772c492114bc927cec27a2a/output/AndroidManifest.xml:23:9-47
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:30:22-73
+provider#com.amitshekhar.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:33:9-37:40
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:35:13-71
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /home/frank/.android/build-cache/6a5aa3f60c4e62e63cb591541939e26b91415636/output/AndroidManifest.xml:34:13-63
