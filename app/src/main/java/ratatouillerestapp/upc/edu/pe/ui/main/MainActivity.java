@@ -37,6 +37,16 @@ import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
 import android.widget.TextView;
 
+import com.mindorks.placeholderview.SwipeDecor;
+import com.mindorks.placeholderview.SwipePlaceHolderView;
+import com.mindorks.placeholderview.listeners.ItemRemovedListener;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import ratatouillerestapp.upc.edu.pe.BuildConfig;
 import ratatouillerestapp.upc.edu.pe.R;
 import ratatouillerestapp.upc.edu.pe.data.db.model.Question;
@@ -48,17 +58,8 @@ import ratatouillerestapp.upc.edu.pe.ui.feed.FeedActivity;
 import ratatouillerestapp.upc.edu.pe.ui.login.LoginActivity;
 import ratatouillerestapp.upc.edu.pe.ui.main.rating.RateUsDialog;
 import ratatouillerestapp.upc.edu.pe.ui.product.ProductFragment;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationFragment;
 import ratatouillerestapp.upc.edu.pe.utils.ScreenUtils;
-import com.mindorks.placeholderview.SwipeDecor;
-import com.mindorks.placeholderview.SwipePlaceHolderView;
-import com.mindorks.placeholderview.listeners.ItemRemovedListener;
-
-import java.util.List;
-
-import javax.inject.Inject;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by janisharali on 27/01/17.
@@ -248,6 +249,18 @@ public class MainActivity extends BaseActivity implements MainMvpView {
     }
 
     @Override
+    public void showReservationFragment() {
+        lockDrawer();
+        getSupportFragmentManager()
+                .beginTransaction()
+                .disallowAddToBackStack()
+                .setCustomAnimations(R.anim.slide_left, R.anim.slide_right)
+                .add(R.id.cl_root_view, ReservationFragment.newInstance(), ReservationFragment.TAG)
+                .commit();
+
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.main, menu);
@@ -361,6 +374,9 @@ public class MainActivity extends BaseActivity implements MainMvpView {
                             case R.id.nav_item_product:
                                 mPresenter.onDrawerOptionProductClick();
                                 return true;
+                            case R.id.nav_item_reservation:
+                                mPresenter.onDrawerOptionReservationClick();
+                                return true;
                             case R.id.nav_item_logout:
                                 mPresenter.onDrawerOptionLogoutClick();
                                 return true;
@@ -382,8 +398,14 @@ public class MainActivity extends BaseActivity implements MainMvpView {
         RateUsDialog.newInstance().show(getSupportFragmentManager());
     }
 
+
     @Override
     public void openMyFeedActivity() {
+        startActivity(FeedActivity.getStartIntent(this));
+    }
+
+    @Override
+    public void openReservationActivity() {
         startActivity(FeedActivity.getStartIntent(this));
     }
 

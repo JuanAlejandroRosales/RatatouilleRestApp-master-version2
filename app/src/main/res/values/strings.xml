@@ -48,6 +48,14 @@
     <string name="password">Password</string>
     <string name="sig_in">Registrarse</string>
 
+    <!--Login-->
+    <string name="reservation">RESERVA</string>
+    <string name="type_reservation">Tipo de Reserva</string>
+    <string name="cant_personas">Cantidad de Personas</string>
+    <string name="fecha_reserva">Fecha de la Reserva</string>
+    <string name="hora_reserva">Hora de la Reserva</string>
+    <string name="detalle_reserva">Detalle de la Reserva</string>
+
     <!--Login Validation-->
     <string name="empty_email">Please provide a non empty email.</string>
     <string name="invalid_email">Please provide a valid email.</string>
@@ -100,4 +108,15 @@
     <string name="confirmar_contraseña">Confirmar Contraseña</string>
     <string name="btn_registrar">REGISTRAR</string>
 
+
+    <string-array name="cantpersonas_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
 </resources>

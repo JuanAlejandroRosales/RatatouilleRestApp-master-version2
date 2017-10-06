@@ -19,6 +19,11 @@ import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 
+import java.util.ArrayList;
+
+import dagger.Module;
+import dagger.Provides;
+import io.reactivex.disposables.CompositeDisposable;
 import ratatouillerestapp.upc.edu.pe.data.network.model.BlogResponse;
 import ratatouillerestapp.upc.edu.pe.data.network.model.OpenSourceResponse;
 import ratatouillerestapp.upc.edu.pe.di.ActivityContext;
@@ -71,6 +76,11 @@ import ratatouillerestapp.upc.edu.pe.ui.product.ProductMvpInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.product.ProductMvpPresenter;
 import ratatouillerestapp.upc.edu.pe.ui.product.ProductMvpView;
 import ratatouillerestapp.upc.edu.pe.ui.product.ProductPresenter;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationInteractor;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationMvpInteractor;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationMvpPresenter;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationMvpView;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationPresenter;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashMvpInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashMvpPresenter;
@@ -78,12 +88,6 @@ import ratatouillerestapp.upc.edu.pe.ui.splash.SplashMvpView;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashPresenter;
 import ratatouillerestapp.upc.edu.pe.utils.rx.AppSchedulerProvider;
 import ratatouillerestapp.upc.edu.pe.utils.rx.SchedulerProvider;
-
-import java.util.ArrayList;
-
-import dagger.Module;
-import dagger.Provides;
-import io.reactivex.disposables.CompositeDisposable;
 
 /**
  * Created by janisharali on 27/01/17.
@@ -145,6 +149,11 @@ public class ActivityModule {
         return presenter;
     }
 
+    @Provides
+    ReservationMvpPresenter<ReservationMvpView, ReservationMvpInteractor> provideReservationPresenter(
+            ReservationPresenter<ReservationMvpView, ReservationMvpInteractor> presenter) {
+        return presenter;
+    }
 
     @Provides
     @PerActivity
@@ -229,6 +238,12 @@ public class ActivityModule {
     @Provides
     @PerActivity
     ProductMvpInteractor provideProductMvpInteractor(ProductInteractor interactor) {
+        return interactor;
+    }
+
+    @Provides
+    @PerActivity
+    ReservationMvpInteractor provideReservationMvpInteractor(ReservationInteractor interactor) {
         return interactor;
     }
 

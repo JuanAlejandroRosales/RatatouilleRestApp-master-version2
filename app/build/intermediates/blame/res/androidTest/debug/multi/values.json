@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/frank/Documentos/upc/RatatouilleRestApp-master/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "D:\\android-mvvm-architecture\\RatatouilleRestApp-master\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/frank/.android/build-cache/e6e33d02b170fb138e25fef1a32a19c0a341e9f8/output/res/values/values.xml",
+                    "file": "C:\\Users\\Juan Alejandro\\.android\\build-cache\\181aa824b6675a55949535a03805e544d65cedf9\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

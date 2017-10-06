@@ -31,6 +31,8 @@ public interface MainMvpPresenter<V extends MainMvpView, I extends MainMvpIntera
 
     void onDrawerOptionProductClick();
 
+    void onDrawerOptionReservationClick();
+
     void onDrawerOptionAboutClick();
 
     void onDrawerOptionLogoutClick();

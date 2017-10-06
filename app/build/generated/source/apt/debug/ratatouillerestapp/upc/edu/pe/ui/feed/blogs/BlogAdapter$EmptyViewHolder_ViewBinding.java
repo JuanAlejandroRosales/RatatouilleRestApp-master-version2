@@ -16,7 +16,7 @@ import ratatouillerestapp.upc.edu.pe.R;
 public class BlogAdapter$EmptyViewHolder_ViewBinding implements Unbinder {
   private BlogAdapter.EmptyViewHolder target;
 
-  private View view2131558581;
+  private View view2131624125;
 
   @UiThread
   public BlogAdapter$EmptyViewHolder_ViewBinding(final BlogAdapter.EmptyViewHolder target, View source) {
@@ -25,7 +25,7 @@ public class BlogAdapter$EmptyViewHolder_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.btn_retry, "field 'retryButton' and method 'onRetryClick'");
     target.retryButton = Utils.castView(view, R.id.btn_retry, "field 'retryButton'", Button.class);
-    view2131558581 = view;
+    view2131624125 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -45,7 +45,7 @@ public class BlogAdapter$EmptyViewHolder_ViewBinding implements Unbinder {
     target.retryButton = null;
     target.messageTextView = null;
 
-    view2131558581.setOnClickListener(null);
-    view2131558581 = null;
+    view2131624125.setOnClickListener(null);
+    view2131624125 = null;
   }
 }

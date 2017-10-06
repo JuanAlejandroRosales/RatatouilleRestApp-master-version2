@@ -15,10 +15,10 @@
 
 package ratatouillerestapp.upc.edu.pe.ui.main;
 
+import java.util.List;
+
 import ratatouillerestapp.upc.edu.pe.data.db.model.Question;
 import ratatouillerestapp.upc.edu.pe.ui.base.MvpView;
-
-import java.util.List;
 
 /**
  * Created by janisharali on 27/01/17.
@@ -46,6 +46,8 @@ public interface MainMvpView extends MvpView {
 
     void openMyFeedActivity();
 
+    void openReservationActivity();
+
     void closeNavigationDrawer();
 
     void lockDrawer();
@@ -55,4 +57,6 @@ public interface MainMvpView extends MvpView {
     void showCustomerFragment();
 
     void showProductFragment();
+
+    void showReservationFragment();
 }

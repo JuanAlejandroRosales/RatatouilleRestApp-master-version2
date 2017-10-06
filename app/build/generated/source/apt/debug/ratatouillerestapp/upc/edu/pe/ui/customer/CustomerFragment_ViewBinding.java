@@ -14,7 +14,7 @@ import ratatouillerestapp.upc.edu.pe.R;
 public class CustomerFragment_ViewBinding implements Unbinder {
   private CustomerFragment target;
 
-  private View view2131558559;
+  private View view2131624067;
 
   @UiThread
   public CustomerFragment_ViewBinding(final CustomerFragment target, View source) {
@@ -22,7 +22,7 @@ public class CustomerFragment_ViewBinding implements Unbinder {
 
     View view;
     view = Utils.findRequiredView(source, R.id.nav_back_btn, "method 'onNavBackClick'");
-    view2131558559 = view;
+    view2131624067 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -38,7 +38,7 @@ public class CustomerFragment_ViewBinding implements Unbinder {
     target = null;
 
 
-    view2131558559.setOnClickListener(null);
-    view2131558559 = null;
+    view2131624067.setOnClickListener(null);
+    view2131624067 = null;
   }
 }

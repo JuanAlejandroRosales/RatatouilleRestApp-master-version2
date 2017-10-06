@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/frank/Documentos/upc/RatatouilleRestApp-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "D:\\android-mvvm-architecture\\RatatouilleRestApp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher2.png",
+        "source": "D:\\android-mvvm-architecture\\RatatouilleRestApp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher2.png"
     },
     {
-        "merged": "/home/frank/Documentos/upc/RatatouilleRestApp-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher2.png",
-        "source": "/home/frank/Documentos/upc/RatatouilleRestApp-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher2.png"
+        "merged": "D:\\android-mvvm-architecture\\RatatouilleRestApp-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\android-mvvm-architecture\\RatatouilleRestApp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

@@ -15,6 +15,7 @@
 
 package ratatouillerestapp.upc.edu.pe.di.component;
 
+import dagger.Component;
 import ratatouillerestapp.upc.edu.pe.di.PerActivity;
 import ratatouillerestapp.upc.edu.pe.di.module.ActivityModule;
 import ratatouillerestapp.upc.edu.pe.ui.about.AboutFragment;
@@ -26,9 +27,9 @@ import ratatouillerestapp.upc.edu.pe.ui.login.LoginActivity;
 import ratatouillerestapp.upc.edu.pe.ui.main.MainActivity;
 import ratatouillerestapp.upc.edu.pe.ui.main.rating.RateUsDialog;
 import ratatouillerestapp.upc.edu.pe.ui.product.ProductFragment;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationActivity;
+import ratatouillerestapp.upc.edu.pe.ui.reservation.ReservationFragment;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashActivity;
-
-import dagger.Component;
 
 /**
  * Created by janisharali on 27/01/17.
@@ -46,6 +47,8 @@ public interface ActivityComponent {
 
     void inject(FeedActivity activity);
 
+    void inject(ReservationActivity activity);
+
     void inject(AboutFragment fragment);
 
     void inject(OpenSourceFragment fragment);
@@ -57,5 +60,7 @@ public interface ActivityComponent {
     void inject(CustomerFragment fragment);
 
     void inject(ProductFragment fragment);
+
+    void inject(ReservationFragment fragment);
 
 }

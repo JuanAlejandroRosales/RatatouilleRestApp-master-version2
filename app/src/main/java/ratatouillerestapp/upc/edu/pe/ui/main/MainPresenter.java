@@ -16,10 +16,6 @@
 package ratatouillerestapp.upc.edu.pe.ui.main;
 
 import com.androidnetworking.error.ANError;
-import ratatouillerestapp.upc.edu.pe.data.db.model.Question;
-import ratatouillerestapp.upc.edu.pe.data.network.model.LogoutResponse;
-import ratatouillerestapp.upc.edu.pe.ui.base.BasePresenter;
-import ratatouillerestapp.upc.edu.pe.utils.rx.SchedulerProvider;
 
 import java.util.List;
 
@@ -27,6 +23,10 @@ import javax.inject.Inject;
 
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.functions.Consumer;
+import ratatouillerestapp.upc.edu.pe.data.db.model.Question;
+import ratatouillerestapp.upc.edu.pe.data.network.model.LogoutResponse;
+import ratatouillerestapp.upc.edu.pe.ui.base.BasePresenter;
+import ratatouillerestapp.upc.edu.pe.utils.rx.SchedulerProvider;
 
 
 /**
@@ -53,13 +53,20 @@ public class MainPresenter<V extends MainMvpView, I extends MainMvpInteractor>
     }
 
     @Override
+    public void onDrawerOptionReservationClick() {
+        getMvpView().closeNavigationDrawer();
+        getMvpView().openReservationActivity();
+
+    }
+
+    @Override
     public void onDrawerOptionProductClick() {
         getMvpView().closeNavigationDrawer();
         getMvpView().showProductFragment();
 
     }
 
-    @Override
+        @Override
     public void onDrawerOptionAboutClick() {
         getMvpView().closeNavigationDrawer();
         getMvpView().showAboutFragment();
