@@ -1,4 +1,4 @@
-package ratatouillerestapp.upc.edu.pe.ui.product;
+package ratatouillerestapp.upc.edu.pe.ui.customer;
 
 import javax.inject.Inject;
 

@@ -54,9 +54,8 @@ public interface ActivityComponent {
 
     void inject(RateUsDialog dialog);
 
-    void inject(CustomerFragment customerFragment);
+    void inject(CustomerFragment fragment);
 
-    void inject(ProductFragment productFragment);
+    void inject(ProductFragment fragment);
 
-//    void inject(CustomerFragment customerFragment);
 }

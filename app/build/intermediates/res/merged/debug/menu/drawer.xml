@@ -35,13 +35,13 @@
             android:id="@+id/nav_item_product"
             android:checked="true"
             android:icon="@drawable/ic_rss_symbol"
-            android:title="@string/feed" />
+            android:title="Productos" />
 
         <item
             android:id="@+id/nav_item_customer"
             android:checked="true"
             android:icon="@drawable/ic_rss_symbol"
-            android:title="@string/feed" />
+            android:title="Clientes" />
         <item
             android:id="@+id/nav_item_logout"
             android:checked="true"

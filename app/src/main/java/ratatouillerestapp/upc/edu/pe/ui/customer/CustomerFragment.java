@@ -6,15 +6,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import ratatouillerestapp.upc.edu.pe.R;
+import ratatouillerestapp.upc.edu.pe.di.component.ActivityComponent;
+import ratatouillerestapp.upc.edu.pe.ui.base.BaseFragment;
+
 import javax.inject.Inject;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ratatouillerestapp.upc.edu.pe.R;
-import ratatouillerestapp.upc.edu.pe.di.component.ActivityComponent;
 
-import ratatouillerestapp.upc.edu.pe.ui.customer.CustomerMvpView;
-import ratatouillerestapp.upc.edu.pe.ui.base.BaseFragment;
 
 /**
  * Created by frank on 03/10/17.

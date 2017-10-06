@@ -28,6 +28,11 @@ import ratatouillerestapp.upc.edu.pe.ui.about.AboutMvpInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.about.AboutMvpPresenter;
 import ratatouillerestapp.upc.edu.pe.ui.about.AboutMvpView;
 import ratatouillerestapp.upc.edu.pe.ui.about.AboutPresenter;
+import ratatouillerestapp.upc.edu.pe.ui.customer.CustomerInteractor;
+import ratatouillerestapp.upc.edu.pe.ui.customer.CustomerMvpInteractor;
+import ratatouillerestapp.upc.edu.pe.ui.customer.CustomerMvpPresenter;
+import ratatouillerestapp.upc.edu.pe.ui.customer.CustomerMvpView;
+import ratatouillerestapp.upc.edu.pe.ui.customer.CustomerPresenter;
 import ratatouillerestapp.upc.edu.pe.ui.feed.FeedInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.feed.FeedMvpInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.feed.FeedMvpPresenter;
@@ -61,6 +66,11 @@ import ratatouillerestapp.upc.edu.pe.ui.main.rating.RatingDialogMvpInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.main.rating.RatingDialogMvpPresenter;
 import ratatouillerestapp.upc.edu.pe.ui.main.rating.RatingDialogMvpView;
 import ratatouillerestapp.upc.edu.pe.ui.main.rating.RatingDialogPresenter;
+import ratatouillerestapp.upc.edu.pe.ui.product.ProductInteractor;
+import ratatouillerestapp.upc.edu.pe.ui.product.ProductMvpInteractor;
+import ratatouillerestapp.upc.edu.pe.ui.product.ProductMvpPresenter;
+import ratatouillerestapp.upc.edu.pe.ui.product.ProductMvpView;
+import ratatouillerestapp.upc.edu.pe.ui.product.ProductPresenter;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashMvpInteractor;
 import ratatouillerestapp.upc.edu.pe.ui.splash.SplashMvpPresenter;
@@ -121,6 +131,20 @@ public class ActivityModule {
             AboutPresenter<AboutMvpView, AboutMvpInteractor> presenter) {
         return presenter;
     }
+
+    @Provides
+    CustomerMvpPresenter<CustomerMvpView, CustomerMvpInteractor> provideCustomerPresenter(
+            CustomerPresenter<CustomerMvpView, CustomerMvpInteractor> presenter) {
+        return presenter;
+    }
+
+
+    @Provides
+    ProductMvpPresenter<ProductMvpView, ProductMvpInteractor> provideProductPresenter(
+            ProductPresenter<ProductMvpView, ProductMvpInteractor> presenter) {
+        return presenter;
+    }
+
 
     @Provides
     @PerActivity
@@ -193,6 +217,18 @@ public class ActivityModule {
     @Provides
     @PerActivity
     AboutMvpInteractor provideAboutMvpInteractor(AboutInteractor interactor) {
+        return interactor;
+    }
+
+    @Provides
+    @PerActivity
+    CustomerMvpInteractor provideCustomerMvpInteractor(CustomerInteractor interactor) {
+        return interactor;
+    }
+
+    @Provides
+    @PerActivity
+    ProductMvpInteractor provideProductMvpInteractor(ProductInteractor interactor) {
         return interactor;
     }
 
